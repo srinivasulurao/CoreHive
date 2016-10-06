@@ -1,0 +1,25 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  string_length:
+    name: string_length
+    type: string
+    description: length of the input value entered should be equal to this number
+      specified.
+    default: ""
+    required: false
+  string_start:
+    name: string_start
+    type: string
+    description: The value of this field should contain this attribute value at the
+      beginning.
+    default: ""
+    required: false
+extends:
+  widget: standard/input/TextInput
+  components:
+  - js
+  - css

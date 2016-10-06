@@ -1,0 +1,16 @@
+According the process outlined in document Energy Efficiency Checklist, this record of additional processes that were created on 2/2/2015.
+
+Enrollment Period Closes:
+Modify dates to the following files
+eeidform_confirm.php (there are notes contained within the file for verbage change as well)
+* eeidform_expired.php (Oncedates are changed, rename this file to eeidform.php)
+
+Enrollment Period Opens:
+* eeidform_open.php (once dates have been changed, rename this file to eeidform.php) (In addition to date changes, this file contains the entry fields for new incidents)
+eeidform_confirm.php (there are notes contained within the file for verbage change as well)
+
+[OPTION]
+Copy newer files data below for an additional info should something happen to other files.
+
+UPDATE!
+There are now links in the eeidform.php to launch the multiple ESI template (.xls) and display the Q&A (pdf).  <-- The new Q&A (v2015) link needs to be updated where all references are found.

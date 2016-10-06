@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  min_checked_boxes:
+    name: min_checked_boxes
+    type: int
+    description: The minimum number of checkboxes that must be checked in the page
+      before the form can be submitted
+    default: 0
+    required: false
+extends:
+  widget: standard/input/FormSubmit
+  components:
+  - js

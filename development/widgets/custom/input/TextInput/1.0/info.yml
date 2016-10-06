@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  disabled_bool:
+    name: disabled_bool
+    type: boolean
+    description: If set to true, the input field will be read only
+    default: false
+    required: false
+extends:
+  widget: standard/input/TextInput
+  components:
+  - js
+  - css

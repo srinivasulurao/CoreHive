@@ -1,0 +1,17 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  toggle_target:
+    name: toggle_target
+    type: string
+    description: This is the ID of the container that holds the fields to be dynamically
+      shown/hidden
+    default: ""
+    required: false
+extends:
+  widget: standard/input/SelectionInput
+  components:
+  - js

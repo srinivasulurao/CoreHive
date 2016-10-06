@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  a_id:
+    name: a_id
+    type: string
+    description: Answer Id attribute
+    default: ""
+    required: false

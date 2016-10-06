@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  survey_url:
+    name: survey_url
+    type: string
+    description: survey_url
+    default: ""
+    required: true

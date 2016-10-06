@@ -1,0 +1,24 @@
+/**
+ * base.css: Base CSS for DynamicCheckInput
+ */
+.rn_DynamicCheckInput.rn_SelectionInput {
+
+}
+.rn_DynamicCheckInput .rn_SelectionInput legend {
+    visibility:visible;
+}
+.rn_DynamicCheckInput .rn_SelectionInput .rn_HintBox {
+    border:1px solid #DBDBDB;
+    max-width:200px;
+    padding:4px 16px 2px;
+    word-wrap:break-word;
+}
+.rn_DynamicCheckInput .rn_SelectionInput .rn_HintBox.rn_AlwaysVisibleHint {
+    max-width:300px;
+    opacity:1.0;
+    z-index:0;
+}
+
+.rn_DynamicCheckInput .rn_Label {
+       font-weight: normal;
+}
